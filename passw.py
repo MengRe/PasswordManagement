@@ -14,7 +14,7 @@ def main(args):
     path_store = os.path.join(dir_to_store, relative_path)
 
     if not os.path.exists(path_store):
-        print('没有创建文件，我们就创一个了')
+        # print('没有创建文件，我们就创一个了')
         # 创建文件
         with open(path_store, 'wb') as wf:
             pickle.dump(data_structure, wf)
@@ -23,8 +23,8 @@ def main(args):
         data = pickle.load(rf)
         data_saved = data['account_saved']
         data_deleted = data['account_deleted']
-        print('数据库中的账号：', data_saved)
-        print('从数据库中删除的账号：', data_deleted)
+        # print('数据库中的账号：', data_saved)
+        # print('从数据库中删除的账号：', data_deleted)
         # print(type(data_structure))
 
         password_management = passwordManagement(data_saved)
