@@ -1,10 +1,10 @@
 # PasswordManagement
 use python to create a password management system
  ## data structure 
-  * data storage :  Using  (website, nickname,email, password) to store an account, 
+  * data storage :  Using  (website, nickname,password, email, phone) to store an account, 
      all accounts are packed in data structure'list'
   * a dict to store the number of characters that every item has in an account , 
-     the dict is collections.default default value is 
+     the default value of the dict is 
      {char_web: 10, char_nickname: 15, char_email: 30, char_passw: 20}
     
  ## command line parameters
