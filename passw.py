@@ -137,7 +137,7 @@ class passwordManagement(object):
         account = (add_website, add_nickname, add_passw, add_email, add_phone)
         self.__data_saved.append(account)
         print('您向数据库添加的网站账户为：')
-        print_interface((1, account))
+        print_interface((1, [account]))
 
     def add(self, add_website):
         # print('我要添加账号')
