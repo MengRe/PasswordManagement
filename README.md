@@ -33,5 +33,10 @@ use python to create a password management system
   例如我的电脑是 c:/用户/steven
   3. 打开cmd(命令提示符)，默认在目录为：C:/Users/your_pc_name ,然后直接按照example操作即可
   
+  ## 开发记录
+  * 2018 09 06
+    * 接下来查看历史账号和删除缓存的历史删除账号信息
+    * 将账号存到腾讯微云上
+  
   
   
